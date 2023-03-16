@@ -42,3 +42,9 @@ html {
     min-height: 10vh;
   }
 }
+
+.cursor {
+  border-radius: 50%;
+  background: linear-gradient(to right, aquamarine, mediumpurple);
+  filter: blur(100px);
+}

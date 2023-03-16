@@ -1,6 +1,6 @@
 export default function () {
   return (
-    <section id="footer" className="bg-black relative z-0 h-[200px] w-full">
+    <section id="footer" className="bg-black relative z-20 h-[150px] w-full">
       <div className="flex h-full w-full justify-between">
         <div className="text-white text-[45px] font-bold align-text-bottom self-end p-8">
           LOGO
