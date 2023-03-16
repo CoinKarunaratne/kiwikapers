@@ -3,7 +3,7 @@ export default function () {
     <section id="footer" className="bg-black relative z-20 h-[150px] w-full">
       <div className="flex h-full w-full justify-between">
         <div className="text-white text-[45px] font-bold align-text-bottom self-end p-8">
-          LOGO
+          KiwiKapers
         </div>
         <div className="align-text-bottom self-end flex-col gap-4">
           <div className="flex gap-7 p-8 lg:mr-8">

@@ -163,7 +163,7 @@ export default function Hero() {
                   className="max-w-[50vw] overflow-hidden rounded-[0.5rem] mt-[0.75rem] img-container"
                 >
                   <img
-                    className="image aspect-[1.8/1] pointer-events-none object-cover cursor-pointer"
+                    className="image xl:h-[180px] aspect-[1.8/1] pointer-events-none object-cover cursor-pointer"
                     src={city.image}
                   />
                 </motion.div>
