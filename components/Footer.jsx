@@ -1,8 +1,8 @@
 export default function () {
   return (
     <section id="footer" className="bg-black relative z-20 h-[150px] w-full">
-      <div className="flex h-full w-full justify-between">
-        <div className="text-white text-[45px] font-bold align-text-bottom self-end p-8">
+      <div className="flex h-full w-full justify-center md:justify-between">
+        <div className="text-white text-[45px] font-bold hidden md:inline-block align-text-bottom self-end p-8">
           KiwiKapers
         </div>
         <div className="align-text-bottom self-end flex-col gap-4">
