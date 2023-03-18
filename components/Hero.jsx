@@ -132,7 +132,7 @@ export default function Hero() {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.8 }}
         transition={{ type: "spring", duration: 1 }}
-        className="h-[5rem] w-[5rem] fixed z-30 left-[50%] lg:left-[45%] bottom-[3rem]
+        className="h-[5rem] w-[5rem] absolute md:fixed z-30 left-[50%] lg:left-[45%] bottom-[3rem]
   border-none bg-orange-300 rounded-full outline-none shadow-lg cursor-pointer text-white group/item"
       >
         {menu ? (
