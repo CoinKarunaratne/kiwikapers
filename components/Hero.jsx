@@ -141,7 +141,7 @@ export default function Hero() {
         <motion.div
           id="nav-links"
           drag="x"
-          dragConstraints={{ left: -320, right: 200 }}
+          dragConstraints={{ left: -280, right: 200 }}
           className={`${menu ? "nav-appear" : "nav-hidden"} cursor-pointer`}
         >
           {Cities.map((city, index) => (
