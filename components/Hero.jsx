@@ -54,7 +54,7 @@ export default function Hero() {
       <div
         style={{ backgroundImage: `url(${slides[index].url})` }}
         className={`w-full h-full bg-center bg-cover duration-500 relative group z-20 transition-transform ${
-          menu && "-translate-y-[35%] lg:-translate-y-[50%]"
+          menu && "-translate-y-[45%] lg:-translate-y-[50%]"
         }`}
       >
         <motion.div
