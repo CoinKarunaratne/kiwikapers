@@ -41,7 +41,7 @@ export default function page({ params }) {
           <div
             style={{ backgroundImage: `url(${data.images[0]?.url})` }}
             className={`w-full h-full bg-center bg-cover duration-500 relative group z-20 transition-transform ${
-              menu && "-translate-y-[25%] lg:-translate-y-[30%]"
+              menu && "-translate-y-[35%]"
             }`}
           >
             <motion.div
@@ -84,7 +84,7 @@ border-none bg-sky-300 rounded-full outline-none shadow-lg cursor-pointer text-w
               size={30}
             />
           </motion.button>
-          <motion.nav className="h-[25vh] lg:h-[30vh] w-full absolute left-0 bottom-0 z-10 overflow-hidden">
+          <motion.nav className="h-[30vh] w-full absolute left-0 bottom-0 z-10 overflow-hidden">
             <div className="duration-500 absolute bottom-[25%] mx-5 mt-5 md:left-24 p-6 w-[500px] max-w-[80%] md:max-w-[50%] text-white gap-4 bg-slate-500">
               <h1 className="md:mb-2">
                 <span className="hidden md:inline-block font-bold mr-5">

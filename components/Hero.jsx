@@ -74,13 +74,6 @@ export default function Hero() {
                 className="w-[24px] h-[24px] object-contain"
               />
             </motion.a>
-            <motion.a whileTap={{ scale: 0.8 }} href="#footer">
-              <img
-                src="/menu.svg"
-                alt="search"
-                className="w-[24px] h-[24px] object-contain"
-              />
-            </motion.a>
           </motion.div>
         </motion.div>
         <div className="duration-500 absolute top-[50%] left-24 p-6 w-[500px] max-w-[50%] text-white gap-4 bg-slate-600">
@@ -148,7 +141,7 @@ export default function Hero() {
         <motion.div
           id="nav-links"
           drag="x"
-          dragConstraints={{ left: 50, right: -50 }}
+          dragConstraints={{ left: -350, right: 200 }}
           className={`${menu ? "nav-appear" : "nav-hidden"} cursor-pointer`}
         >
           {Cities.map((city, index) => (
